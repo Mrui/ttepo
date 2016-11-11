@@ -8,6 +8,7 @@ urlpatterns = [
 	url(r'^gallery/$', views.gallery, name="gallery"),
 	url(r'^publications/$', views.publications, name="publications"),
 	url(r'^faq/$', views.faq, name="faq"),
+	url(r'^faq/irc$', views.irc, name="irc"),
 	url(r'^links/$', views.links, name="links"),
 	url(r'^map/$', views.map, name="map"),
 	url(r'^feedback/$', views.feedback, name="feedback"),

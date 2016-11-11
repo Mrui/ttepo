@@ -14,19 +14,22 @@ def board(request):
     return render(request, 'www/frontpage.html')
 
 def concept(request):
-    return render(request, 'www/frontpage.html')
+    return render(request, 'www/concept.html')
 
 def gallery(request):
     return render(request, 'www/frontpage.html')
 
 def publications(request):
-    return render(request, 'www/frontpage.html')
+    return render(request, 'www/publications.html')
 
 def faq(request):
-    return render(request, 'www/frontpage.html')
+    return render(request, 'www/faq.html')
+
+def irc(request):
+    return render(request, 'www/irc_ohje.html')
 
 def links(request):
-    return render(request, 'www/frontpage.html')
+    return render(request, 'www/links.html')
 
 def map(request):
     return render(request, 'www/frontpage.html')

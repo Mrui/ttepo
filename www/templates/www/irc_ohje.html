@@ -1,0 +1,52 @@
+{% extends 'www/base.html' %}
+
+{% block content %}
+
+	<strong>mIRC - ohje:</strong><br/>
+	<br/>
+	
+	Lataa, pura ja asenna koneellesi mIRC -client osoitteesta <br/>
+	<a href="http://www.mirc.com/get.html ">http://www.mirc.com/get.html </a><br/>
+	->Käynnistä asennettu mIRC -ohjelma.<br/>
+	<br/>
+	Säädä asetukset kuntoon valikosta File -> Options<br/>
+	<br/>
+	Connect -välilehdellä valitset käytettävän serverin, tässä tapauksessa 
+	kannattaa lisätä 
+	add -painikkeella uusi serveri. Serveriksi laita irc.cc.tut.fi ja portiksi 
+	6667.
+	Täytä myös omat tietosi: nimi, joku sähköpostiosoite, nickname ja 
+	vaihtoehtoinen nickname.<br/>
+	<br/>
+
+	Options -välilehdeltä kannattaa käydä raksimassa Connect on startup sekä 
+	Reconnect on disconnection, jos eivät jo ole valittuina. 
+	<br/>
+
+	Connect -välilehden painikkeesta Connect to irc-server, irc.cc.tut.fi -serverin ollessa 
+	listasta valittuna, saat yhteyden palvelimelle. Tällöin status -ikkunassa näet viestejä, 
+	ja sinun luultavasti käsketään odottamaan kunnes turvallisuutta skannataan tms. -> Odota
+	<br/><br/>
+	
+	Kun MOTD vilahtaa näkyville, olet onnistuneesti yhteydessä serverille!<br/>
+	->kirjoita tekstikenttään:
+	<br/><br/>
+	/join #ttepo
+	päästäksesi kanavallemme.
+	<br/><br/>
+	
+	Muita hyödyllisiä komentoja:
+	<br/><br/>
+
+	/nick uusi_nickname <br/>
+	/quit mahdollinen lopetuksen syy
+	<br/><br/>
+	
+	Lisää hyödyllisiä komentoja löytyy esim. osoitteesta
+	<br/><br/>
+	<a href="http://www.unessa.net/irc/komennot.html">http://www.unessa.net/irc/komennot.html</a>
+	sekä googlettamalla.
+	<br/><br/>
+	<br/>
+
+{% endblock %}
