@@ -1,0 +1,20 @@
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+#Virtual env
+myenv
+.env
+# Byte-compiled / optimized / DLL files
+shop/migrations/*
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Database
+db.sq*
