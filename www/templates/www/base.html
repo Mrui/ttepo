@@ -1,0 +1,92 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <title>TTEPO - Tampereen Teekkarien Etelä-Pohjalainen Osakunta</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/tyylit.css' %}">
+    <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="ylapalkki"> 
+     <h2>Tampereen teekkarien etel&auml;-pohjalainen osakunta</h2>
+     <div id="otsikko">
+        <a href="{% url '/' %}"><img src="{% static 'pics/ttepo.png' %}" alt="TTEPO" title="Etusivulle"  /></a>
+    </div>
+</div>
+
+<div id="valikot">
+    <ul>
+        <li class="alasivu"><a href="{% url '/' %}">Etusivu</a></li>
+        <li class="alasivu"><a href="{% url '/board' %}">Hallitus</a></li>
+        <li class="alasivu"><a href="{% url '/concept' %}">Toiminta</a></li>
+        <li class="alasivu"><a href="{% url '/gallery' %}">Kuvagalleria</a></li>
+        <li class="alasivu"><a href="{% url '/publications' %}">Julkaisut</a></li>
+        <li class="alasivu"><a href="{% url '/faq' %}">FAQ</a></li>
+        <li class="alasivu"><a href="{% url '/links' %}">Linkit</a></li>
+
+    </ul>
+</div>
+
+    <div id="sisalto">
+    <div id="sidebar">
+        <div id="info">     
+        <p><strong>Inforuutu:</strong></p>
+        
+        <p>
+        <span style='text-decoration:underline'><strong>Sählyvuorot</strong></span>
+        <!--Ei vuoroja kes&auml;ll&auml;.-->
+        <br />
+        Maanantaisin klo 19-20
+        <br /> 
+        kentällä 2
+        <br />
+        Keskiviikkoisin klo 21-22
+        kentällä 2
+        </p>
+        <p>
+        <strong>Tamppivuoro</strong> 
+        Tampin 3. kentällä 
+        maanantaisin klo 9.00
+        </p>
+        <br />
+        </div>
+
+        <div id="yhteystiedot">
+            <strong>Yhteystiedot:</strong>
+            <p>
+            <strong>Postiosoite:</strong><br/>
+            TTEPO / TTYY<br/>
+            PL 692 <br/>
+            33101 TAMPERE<br /> 
+            <strong>Käyntiosoite:</strong><br/>
+            Korkeakoulunkatu 3<br/>
+            33720 TAMPERE 
+            </p>
+            <p>
+            <strong>Sposti:</strong> ttepo-hallitus(at)
+            listmail.tut.fi<br />
+            <strong>Puh:</strong> +358 40 936 55 66<br />
+            <strong>IrcNET:</strong> #ttepo<br />
+            <span style="border-style:solid; border-width:3px;"><strong><a href="/feedback">Avoin palaute</a></strong></span><br />
+            </p>
+            <p> 
+            <strong>Kerhohuone SA013</strong> sijaitsee
+            Sähkötalon kellarissa (<a href="/map">kartta</a>).
+            </p>
+
+        </div>
+    </div>
+    <div id="main">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <div class="alapalkki">
+        <img id="logo" src="{% static 'pics/logo.png' %}" alt="TTEPO-logo"  />
+        
+
+    </div>
+
+</body>
+</html>

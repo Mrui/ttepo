@@ -39,7 +39,7 @@ ul	{padding-left: 35px;}
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url(vasenreunakap.gif);
+	background-image: url(../pics/vasenreunakap.gif);
 	background-repeat: repeat-y;
 	background-position: top left;
 	padding-left: 10px;
@@ -50,7 +50,7 @@ ul	{padding-left: 35px;}
 	min-height: 100%;
 	height: 100%;
 	width: 90%;
-	background-image: url(oikeareunakap.gif);
+	background-image: url(../pics/oikeareunakap.gif);
 	background-repeat: repeat-y;
 	background-position: top right;
 	padding-right: 10px;
@@ -69,7 +69,7 @@ ul	{padding-left: 35px;}
 #ylapalkki {
 	width: 814px;
 	height: 174px;
-	background-image: url(salmiakki.gif);
+	background-image: url(../pics/salmiakki.gif);
 	background-repeat: repeat-x;
 	background-color: white;
 	text-transform: uppercase;
@@ -129,7 +129,7 @@ ul	{padding-left: 35px;}
 	}
 
 #main	{
-	background-image: url(puukko.png);
+	background-image: url(../pics/puukko.png);
 	background-repeat: no-repeat;
 	background-attachment: inherit;
 	background-color: white;
@@ -176,7 +176,7 @@ ul	{padding-left: 35px;}
 	}
 
 div.alapalkki {
-	background-image: url(alapalkki.gif);
+	background-image: url(../pics/alapalkki.gif);
 	background-repeat: repeat-x;
 	background-color: white;
 	margin: 0 auto;
