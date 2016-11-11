@@ -5,26 +5,24 @@
     <title>TTEPO - Tampereen Teekkarien Etelä-Pohjalainen Osakunta</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="{% static 'css/tyylit.css' %}">
-    <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <div id="ylapalkki"> 
-     <h2>Tampereen teekkarien etel&auml;-pohjalainen osakunta</h2>
+     <h2>Tampereen teekkarien etelä-pohjalainen osakunta</h2>
      <div id="otsikko">
-        <a href="{% url '/' %}"><img src="{% static 'pics/ttepo.png' %}" alt="TTEPO" title="Etusivulle"  /></a>
+        <a href="/"><img src="{% static 'pics/ttepo.png' %}" alt="TTEPO" title="Etusivulle"  /></a>
     </div>
 </div>
 
 <div id="valikot">
     <ul>
-        <li class="alasivu"><a href="{% url '/' %}">Etusivu</a></li>
-        <li class="alasivu"><a href="{% url '/board' %}">Hallitus</a></li>
-        <li class="alasivu"><a href="{% url '/concept' %}">Toiminta</a></li>
-        <li class="alasivu"><a href="{% url '/gallery' %}">Kuvagalleria</a></li>
-        <li class="alasivu"><a href="{% url '/publications' %}">Julkaisut</a></li>
-        <li class="alasivu"><a href="{% url '/faq' %}">FAQ</a></li>
-        <li class="alasivu"><a href="{% url '/links' %}">Linkit</a></li>
+        <li class="alasivu"><a href="/">Etusivu</a></li>
+        <li class="alasivu"><a href="/board">Hallitus</a></li>
+        <li class="alasivu"><a href="/concept">Toiminta</a></li>
+        <li class="alasivu"><a href="/gallery">Kuvagalleria</a></li>
+        <li class="alasivu"><a href="/publications">Julkaisut</a></li>
+        <li class="alasivu"><a href="/faq">FAQ</a></li>
+        <li class="alasivu"><a href="/links">Linkit</a></li>
 
     </ul>
 </div>
