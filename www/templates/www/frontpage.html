@@ -1,6 +1,14 @@
 {% extends 'www/base.html' %}
 
 {% block content %}
-<h1> Nothing here </h1>
+
+	{% for report in news %}
+		<h2>{{ report.title }}</h2>
+		<p>{{ report.text }}<p>
+		<div>Pvm: {{ report.date }}</div>
+		<div>Lähettänyt {{ report.author }}</div>
+	{% empty %}
+		<h3>Ei uutisia<h3>
+	{% endfor %}
 
 {% endblock %}
