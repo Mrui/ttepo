@@ -1,1 +1,1 @@
-web: gunicorn ttepo.wsgi:application --preload --log-file -
+web: gunicorn ttepo.wsgi:application
