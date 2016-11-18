@@ -86,11 +86,14 @@ WSGI_APPLICATION = 'ttepo.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-    }
-}
+import dj_database_url
+DATABASES['default'] =  dj_database_url.config()
+
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql_psycopg2",
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
@@ -142,3 +145,4 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 FIXTURE_DIRS = (
    os.path.join(PROJECT_ROOT, 'fixtures'),
 )
+
