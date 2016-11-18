@@ -1,1 +1,1 @@
-web: gunicorn ttepo.wsgi:application
+web: gunicorn ttepo.wsgi:application --log-file -
