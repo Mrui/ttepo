@@ -1,0 +1,77 @@
+[
+{
+ "model": "flatpages.flatpage",
+ "pk": 1,
+ "fields": {
+  "url": "/faq/",
+  "title": "Faq",
+  "content": "<h1>TTEPO FAQ</h1>\r\n\t<br />\r\n\t<strong> Q: Mit\u00e4 lehti\u00e4 osakuntaan tulee? </strong><br/>\r\n\t\tA: Osakuntaan tulee seuraavat lehdet:\r\n\t<br/>\r\n\t<ul>\r\n\t\t<!-- <li> Ilkka </li> -->\r\n\t\t<li> Ilmajoki-lehti </li>\r\n\t\t<li> Jalasj\u00e4rven-Per\u00e4sein\u00e4joen kunnallissanomat </li>\r\n\t\t<!-- <li> J\u00e4rviseudun sanomat </li> -->\r\n\t\t<!-- <li> J\u00e4rviseutu </li> -->\r\n\t\t<li> Kauhajoen Kunnallislehti </li>\r\n\t\t<!-- <li> Komiat </li> -->\r\n\t\t<li> Lapuan sanomat </li>\r\n\t\t<!-- <li> Tekniikka &amp; talous </li> -->\r\n\t\t<li> Viiskunta </li>\r\n\t\t<li> Ykk\u00f6set </li>\r\n\r\n\t</ul>\r\n\t<br/>\r\n\r\n\t<strong>Q: Miten p\u00e4\u00e4sen j\u00e4seneksi? </strong><br/>\r\n\tA: J\u00e4seneksi p\u00e4\u00e4see yksinkertaisesti maksamalla j\u00e4senmaksun (5 \u20ac). \r\n\tOlet j\u00e4sen koko TTYY:hyn kuulumisesi ajan. Maksun voi suorittaa kerhohuoneella mieluiten kahvi-iltap\u00e4ivisin.\r\n\t<br/><br/>\r\n\r\n\t<strong>Q: Onko kerhohuoneella myyntip\u00e4ivystyst\u00e4? </strong><br/>\r\n\tA: Varsinaista myyntip\u00e4ivystyst\u00e4 ei ole. Varmimmin myyji\u00e4 on paikalla kahvi-iltap\u00e4ivisin. \r\n\t<br/><br/>\r\n\r\n\t<strong>Q: Onko osakunnalla omaa kangasmerkki\u00e4? </strong><br/>\r\n\tA: Johan nyt toki. <a href=\"{% static 'pics/kangasmerkki.jpg' %}\">Kangasmerkki</a> on kuvasta \r\n\tpoiketen nykyisin brodeerattu ja taustaltaan valkoinen.\r\n\t<br/><br/>\r\n\r\n\t<strong>Q: Haluan osakuntapaidan itselleni, mist\u00e4 niit\u00e4 saa?</strong><br/>\r\n\tA: Tilauksia tehd\u00e4\u00e4n noin kerran vuodessa. Lis\u00e4ksi osakuntaan tilataan muutamia \r\n\tylim\u00e4\u00e4r\u00e4isi\u00e4, joita voi my\u00f6s kysell\u00e4 osakunnasta tai l\u00e4hett\u00e4m\u00e4ll\u00e4 s\u00e4hk\u00f6postia jollekin \r\n\thallituksen j\u00e4senelle.\r\n\t<br/><br/>\r\n\r\n\t<strong>Q: Onko osakunnalla irc-kanavaa?</strong><br/>\r\n\tA: Jep! kanava on nimelt\u00e4\u00e4n #ttepo (ircnet) (yll\u00e4tt\u00e4en) ja ohjeita kanavalle p\u00e4\u00e4semiseksi voit lukea vaikka <a href=\"irc\">t\u00e4\u00e4ll\u00e4</a>\r\n\t<br/><br/>\r\n\r\n\t<strong>Q: J\u00e4sentietoni ovat vanhentuneet tai virheelliset. Mit\u00e4 teen? </strong> <br/>\r\n\tA: L\u00e4het\u00e4 tiedotusvastaavalle maili, jossa kerrot uudet/oikeat tiedot.\r\n\t<br/><br/>\r\n\r\n\t<strong>Q: Olen kuullut ett\u00e4 osakuntahuoneella pelataan joskus korttia, onko \r\n\tse totta?</strong><br/>\r\n\tA: Kyll\u00e4 se pit\u00e4\u00e4 paikkansa. Suosituimpia t\u00e4ll\u00e4 hetkell\u00e4 ovat koira, \r\n\tmoska ja neekeri. <a href=\"kortit.shtml\">T\u00e4st\u00e4</a> n\u00e4et \r\n\tosakunnassa k\u00e4yt\u00f6ss\u00e4 olevat s\u00e4\u00e4nn\u00f6t.\r\n\t<br/><br/><br/>\r\n\t<br/>",
+  "enable_comments": false,
+  "template_name": "",
+  "registration_required": false,
+  "sites": [
+   1
+  ]
+ }
+},
+{
+ "model": "flatpages.flatpage",
+ "pk": 2,
+ "fields": {
+  "url": "/concept/",
+  "title": "Osakunnan toiminta",
+  "content": "<h1>Osakunnan toimintaa</h1>\r\n<p>\r\nOsakunnalla on monipuolista toimintaa. Alla on hieman otsikoitua p\u00e4\u00e4piirteitt\u00e4in mit\u00e4 me oikein touhutaan.\r\n</p>\r\n<br />\r\n<h3>Kahvi-iltap\u00e4iv\u00e4</h3>\r\n<p>\r\nOsakunnassa vietet\u00e4\u00e4n perinteist\u00e4 kahvi-iltap\u00e4iv\u00e4\u00e4 tiistaisin klo 13.30. T\u00e4ll\u00f6in kerhohuoneella on varmimmin paikalla muitakin osakuntalaisia ja tarjolla on kaffin lis\u00e4ksi pullaa tms. Tuu juttelemahan mukavas seuras tai vaikka vain kattomahan mit\u00e4 p\u00e4iv\u00e4n Ilikas lukoo.\r\n</p>\r\n<p>\r\n<strong>Hinnasto:</strong><br />\r\nKahvi / tee 30 sentti\u00e4<br />\r\nPulla 30 sentti\u00e4 \r\n</p>\r\n<br />\r\n<h3>Leffaillat</h3>\r\n<p>\r\nLeffailtoja j\u00e4rjestet\u00e4\u00e4n muutaman kerran vuodessa. Tarjolla on yleens\u00e4 kotimaista laatuviihdett\u00e4. Jatkot yleens\u00e4 osakuntahuoneella, joista ei kannata j\u00e4\u00e4d\u00e4 paitsi... ;)\r\n</p>\r\n<br />\r\n<h3>Tapahtumat</h3>\r\n<p>\r\nTapahtumiin osallistuminen on p\u00e4\u00e4painoisesti urheilutapahtumissa (muun, kuin osakunnan j\u00e4rjest\u00e4m\u00e4). Perinteeksi onkin muodostunut MIK:n pesisturnaus alkusyksyst\u00e4 ja Akateemiset kirkkovenesoudut heti per\u00e4\u00e4n. My\u00f6s jalkapalloa on yleens\u00e4 pelattu KoneCupissa. Kev\u00e4tpuolella kartut viuhuu kyyk\u00e4n peluun merkeiss\u00e4 eik\u00e4 sovi unohtaa perinteist\u00e4 Skillan j\u00e4rjest\u00e4m\u00e4\u00e4 kaukalopalloturnausta. Ja t\u00e4rkeint\u00e4h\u00e4n ei ole voittaminen, vaan vastustajien t\u00e4ydellinen n\u00f6yryytt\u00e4minen...\r\n</p>\r\n<p>\r\nTTEPO n\u00e4ytt\u00e4ytyy joka syksy tutussa paikassa fuksimessuilla ja Wapunp\u00e4iv\u00e4n\u00e4 on perinteist\u00e4kin perinteikk\u00e4in makkaranmyynti Koskipuistossa teekkarikasteen aikana. Lis\u00e4ksi hein\u00e4kuussa on vietetty kes\u00e4tapaamista Etel\u00e4-Pohjanmaan maisemissa. Hieman harvemmin eli viiden vuoden v\u00e4lein on tavattu j\u00e4rjest\u00e4\u00e4 vuosijuhlat sek\u00e4 tehd\u00e4 juhlavuosijulkaisu.\r\n</p>\r\n<br />\r\n<h3>Saunaillat</h3>\r\n<p>\r\nKuten teekkariperinteeseen kuuluu, tottakai pit\u00e4\u00e4 saunoa. Syksyll\u00e4 on heti fuksimessujen j\u00e4lkeen j\u00e4rjestetty fuksisauna, jossa p\u00e4\u00e4see paremmin tutustumaan osakuntalaisiin. Pesissaunaa on tavattu yleens\u00e4 pit\u00e4\u00e4, kun se kerran pesisturnauksen voitosta on palkintona. Syysyleiskokouksessa marraskuussa valitaan seuraavan vuoden hallitus ja samalla vietet\u00e4\u00e4n perinteikk\u00e4it\u00e4 pikkujouluja. Helmikuussa j\u00e4rjestet\u00e4\u00e4n kev\u00e4\u00e4n yleiskokous, jossa vanha hallitus hieman kertoo omasta hallituskaudestaan.\r\n</p>\r\n<br />\r\n<h3>Yleist\u00e4</h3>\r\n<p>\r\nJokap\u00e4iv\u00e4ist\u00e4 toimintaa on osakuntahuoneella p\u00e4iv\u00e4n lehtien lukeminen, p\u00e4iv\u00e4\u00e4 polttavista asioista toimittelu ja kortin peluu kaffittelun lomassa.\r\n</p>",
+  "enable_comments": false,
+  "template_name": "",
+  "registration_required": false,
+  "sites": [
+   1
+  ]
+ }
+},
+{
+ "model": "flatpages.flatpage",
+ "pk": 3,
+ "fields": {
+  "url": "/links/",
+  "title": "Linkkej\u00e4",
+  "content": "<h1>Linkkej\u00e4</h1> <br/>\r\n\r\n\t<h3> Koulu ja opiskelu: </h3> <br/>\r\n\t\r\n\t<a href=\"http://www.juvenes.fi/fi-fi/ravintolatjakahvilat/opiskelijaravintolat/ttykampus.aspx\">Mun on n\u00e4l\u00e4k\u00e4! </a><br/>\r\n\t<a href=\"http://www.tut.fi/pop\">POP</a><br/>\r\n\t<a href=\"https://www.tut.fi/public/oppaat/opas2012-2013/perus/laitokset/\">Opinto-opas </a><br />\r\n\t<br/>\r\n\t\r\n\t<a href=\"http://www.etelapohjanmaa.fi/\">Etel\u00e4-Pohjanmaan maakuntaportaali</a><br/>\r\n\t<a href=\"http://www.sjoki.uta.fi/epliitto/\">Etel\u00e4-Pohjanmaan liitto</a><br/>\r\n\t<a href=\"http://fennica.net/a/3fb/5143fb.htm\"> Tietoa Etel\u00e4-Pohjanmaan kaupungeista</a><br/>\r\n\t<br/><br/>\r\n\r\n\t<h3>Lehti\u00e4:</h3> <br/>\r\n\t\r\n\t<a href=\"http://www.ilkka.fi\"> Ilkka </a><br/>\r\n\t<a href=\"http://www.pohjalainen.fi\"> Pohjalainen </a><br/>\r\n\t<a href=\"http://www.ykkoset.fi\"> Ykk\u00f6set </a><br/>\r\n\t<a href=\"http://www.iltasanomat.fi\"> Iltasanomat </a><br/>\r\n\t<a href=\"http://www.iltalehti.fi\"> Iltalehti </a><br/>\r\n\t<br/> <br/>\r\n\t\r\n\t<h3>Muita osakuntia: </h3><br/>\r\n\t\r\n\t<a href=\"http://epo.osakunta.fi/\"> Helsingin yliopiston etel\u00e4-pohjalainen osakunta </a> <br/>\r\n\t<a href=\"http://www.uta.fi/jarjestot/typo/\"> Tampereen yliopiston pohjalainen osakunta </a><br/>\r\n\t<a href=\"http://tyyala.utu.fi/tpo/\"> Turun yliopiston pohjalainen osakunta</a><br/>\r\n\t<a href=\"http://www.uku.fi/pohjalaiset/\"> Kuopion yliopiston Pohjalainen osakunta</a><br/>\r\n\t<a href=\"http://etelapohjalainenosakunta.wordpress.com/\"> Jyv\u00e4skyl\u00e4n yliopiston Etel\u00e4pohjalainen osakunta </a><br/>\t\r\n\t<a href=\"http://www.student.oulu.fi/~epo/\"> Oulun Yliopiston Etel\u00e4- ja Keski-Pohjalainen Osakunta </a><br/>\t\r\n\t<a href=\"http://www.uwasa.fi/~puukkoo/\"> Vaasan yliopiston etel\u00e4pohjalainen osakunta</a><br/>\r\n\t<a href=\"http://www.osterbottniskanationen.fi/\"> \u00c5bo Akademin \u00f6sterbottniska Nationen </a>\r\n\t<br/>",
+  "enable_comments": false,
+  "template_name": "",
+  "registration_required": false,
+  "sites": [
+   1
+  ]
+ }
+},
+{
+ "model": "flatpages.flatpage",
+ "pk": 4,
+ "fields": {
+  "url": "/publications/",
+  "title": "Julkaisut",
+  "content": "<h1>TTEPO:n vuosijulkaisut</h1>\r\n\r\n<p>Vuosijulkaisuja on s\u00e4hk\u00f6isess\u00e4 muodossa kolme kappaletta. Paperiversioita on\r\nuseilta vuosilta ja voit tulla selaamaan niit\u00e4 kerhohuoneelle. Siell\u00e4 on \r\nluettavissa mm. 1-vuotisjuhlajulkaisu! </p>\r\n<br/>\r\n\r\n<table id=\"julkaisu\">\r\n<tr>\r\n<td>\r\n<h3>Juhlavuosijulkaisu 1997</h3>\r\n</td>\r\n<td>\r\n<h3>Juhlavuosijulkaisu 2002</h3>\r\n</td>\r\n<td>\r\n<h3>Juhlavuosijulkaisu 2007</h3>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<a href=\"{% static 'julkaisut/julkaisu1997.pdf' %}\"><img src=\"{% static 'julkaisut/julkaisu1997.gif' %}\" alt=\"Juhlavuosijulkaisu 1997\" title=\"Juhlavuosijulkaisu 1997\"/></a>\r\n</td>\r\n<td>\r\n<a href=\"{% static 'julkaisut/Juhlavuosijulkaisu2002.pdf' %}\"><img src=\"{% static 'julkaisut/Juhlavuosijulkaisu2002.gif' %}\" alt=\"Juhlavuosijulkaisu 2002\" title=\"Juhlavuosijulkaisu 2002\"/></a>\r\n</td>\r\n<td>\r\n<a href=\"{% static 'julkaisut/julkaisu07.pdf' %}\"><img src=\"{% static 'julkaisut/julkaisu07.gif' %}\" alt=\"Juhlavuosijulkaisu 2007 \" title=\"Juhlavuosijulkaisu 2007\"/></a>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n</td>\r\n<td>\r\n</td>\r\n<td>\r\n<a href=\"{% static 'julkaisut/vastaus.pdf' %}\">Ristikon ratkaisu</a>\r\n</td>\r\n</tr>\r\n\r\n<tr>\r\n<td>\r\n<h3>Juhlavuosijulkaisu 2012</h3>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<a href=\"{% static 'julkaisut/Julkaisu2012.pdf' %}\"><img src=\"{% static 'julkaisut/Julkaisu2012.gif' %}\" alt=\"Juhlavuosijulkaisu 2012\" title=\"Juhlavuosijulkaisu 2012\"/></a>\r\n</td>\r\n</tr>\r\n</table>",
+  "enable_comments": false,
+  "template_name": "",
+  "registration_required": false,
+  "sites": [
+   1
+  ]
+ }
+},
+{
+ "model": "flatpages.flatpage",
+ "pk": 5,
+ "fields": {
+  "url": "/faq/irc/",
+  "title": "IRC-ohje",
+  "content": "<strong>mIRC - ohje:</strong><br/>\r\n\t<br/>\r\n\t\r\n\tLataa, pura ja asenna koneellesi mIRC -client osoitteesta <br/>\r\n\t<a href=\"http://www.mirc.com/get.html \">http://www.mirc.com/get.html </a><br/>\r\n\t->K\u00e4ynnist\u00e4 asennettu mIRC -ohjelma.<br/>\r\n\t<br/>\r\n\tS\u00e4\u00e4d\u00e4 asetukset kuntoon valikosta File -> Options<br/>\r\n\t<br/>\r\n\tConnect -v\u00e4lilehdell\u00e4 valitset k\u00e4ytett\u00e4v\u00e4n serverin, t\u00e4ss\u00e4 tapauksessa \r\n\tkannattaa lis\u00e4t\u00e4 \r\n\tadd -painikkeella uusi serveri. Serveriksi laita irc.cc.tut.fi ja portiksi \r\n\t6667.\r\n\tT\u00e4yt\u00e4 my\u00f6s omat tietosi: nimi, joku s\u00e4hk\u00f6postiosoite, nickname ja \r\n\tvaihtoehtoinen nickname.<br/>\r\n\t<br/>\r\n\r\n\tOptions -v\u00e4lilehdelt\u00e4 kannattaa k\u00e4yd\u00e4 raksimassa Connect on startup sek\u00e4 \r\n\tReconnect on disconnection, jos eiv\u00e4t jo ole valittuina. \r\n\t<br/>\r\n\r\n\tConnect -v\u00e4lilehden painikkeesta Connect to irc-server, irc.cc.tut.fi -serverin ollessa \r\n\tlistasta valittuna, saat yhteyden palvelimelle. T\u00e4ll\u00f6in status -ikkunassa n\u00e4et viestej\u00e4, \r\n\tja sinun luultavasti k\u00e4sket\u00e4\u00e4n odottamaan kunnes turvallisuutta skannataan tms. -> Odota\r\n\t<br/><br/>\r\n\t\r\n\tKun MOTD vilahtaa n\u00e4kyville, olet onnistuneesti yhteydess\u00e4 serverille!<br/>\r\n\t->kirjoita tekstikentt\u00e4\u00e4n:\r\n\t<br/><br/>\r\n\t/join #ttepo\r\n\tp\u00e4\u00e4st\u00e4ksesi kanavallemme.\r\n\t<br/><br/>\r\n\t\r\n\tMuita hy\u00f6dyllisi\u00e4 komentoja:\r\n\t<br/><br/>\r\n\r\n\t/nick uusi_nickname <br/>\r\n\t/quit mahdollinen lopetuksen syy\r\n\t<br/><br/>\r\n\t\r\n\tLis\u00e4\u00e4 hy\u00f6dyllisi\u00e4 komentoja l\u00f6ytyy esim. osoitteesta\r\n\t<br/><br/>\r\n\t<a href=\"http://www.unessa.net/irc/komennot.html\">http://www.unessa.net/irc/komennot.html</a>\r\n\tsek\u00e4 googlettamalla.\r\n\t<br/><br/>\r\n\t<br/>",
+  "enable_comments": false,
+  "template_name": "",
+  "registration_required": false,
+  "sites": [
+   1
+  ]
+ }
+}
+]

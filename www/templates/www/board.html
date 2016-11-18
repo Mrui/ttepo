@@ -4,6 +4,13 @@
 
 <h2>Ei ole vielä valmis</h2>
 
+{% for member in members %}
+	<h3>{{ member.role }}</h3>
+	<p>{{ member.first_name }} {{ member.last_name }}
+{% empty %}
+	<h2>Eijjole boardijäseniä vielä</h2>
+{% endfor %}
+
 {% for board in boards %}
 	<h3>Hallitus {{ board.year }}</h3>
 {% empty %}

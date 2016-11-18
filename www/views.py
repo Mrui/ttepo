@@ -16,9 +16,10 @@ def board(request):
 	try:
 		boards = Board.objects.all()
 		board = Board.objects.latest('year')
-		return render(request, 'www/board.html', {'boards': boards, 'board':board})
+		members = board.boardmembers.all()
+		return render(request, 'www/board.html', {'boards': boards, 'board':board, 'members': members})
 	except:
-		return HttpResponse(status=404)
+		return render(request, 'www/board.html')
 
 def oldboard(request, board):
 	return render(request, 'www/board.html')

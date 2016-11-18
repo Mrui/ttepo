@@ -34,12 +34,16 @@ class Board(models.Model):
 
 class BoardMember(models.Model):
 	role = models.CharField(max_length = 255, blank = False, unique = False)
+	view_order = models.IntegerField(unique = True, default = 1)
 	first_name = models.CharField(max_length = 255)
 	last_name = models.CharField(max_length = 255)
 	email = models.EmailField(default='etu.suku@student.tut.fi')
 	ircnick = models.CharField(max_length = 15)
-	photo = models.ImageField(upload_to = './board/')
+	photo = models.ImageField(upload_to = 'board/')
 	board = models.ForeignKey(Board, related_name='boardmembers')
+
+	class Meta:
+		ordering = ['view_order']
 
 	def __str__(self):
 		return self.last_name + ' ' + self.first_name
