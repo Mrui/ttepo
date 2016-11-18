@@ -32,10 +32,10 @@ def oldboard(request, board):
 		return render(request, 'www/board.html')
 
 def gallery(request):
-    return render(request, 'www/frontpage.html')
+    return render(request, 'www/gallery.html')
 
 def feedback(request):
-	return render(request, 'www/frontpage.html')
+	return render(request, 'www/feedback.html')
 
 @login_required
 def addnews(request):
