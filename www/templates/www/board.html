@@ -2,19 +2,41 @@
 
 {% block content %}
 
-<h2>Ei ole vielä valmis</h2>
+{% if board.year != null %}
+	<h2>TTEPO:n hallitus {{board.year}}</h2>
+	<table class="hallitus">
+	<tr>
+	{% for member in members %}
+		<td><img src="{{ member.photo }}" width="130" /></td>
+		<td class="vasenteksti">
+		<strong>{{ member.role }}</strong><br/>
+		{{ member.first_name }} {{ member.last_name }}<br />
+		{{ member.email }}<br />
+		IrcNet: {{ member.ircnick }}<br/>
+		</td>
+		{% if forloop.counter|divisibleby:2 %}
+			</tr>
+			<tr>
+		{% endif %}
+	{% empty %}
+		<h2>Eijjole boardijäseniä vielä</h2>
+	{% endfor %}
+	</tr>
+	</table>
+	<h3>Muita/vanhoja hallituksia</h3>
+	<ul>
+	{% for oldboard in boards %}
+		{% if oldboard.year != board.year %}
+		<li><a href="{% url 'oldboard' oldboard.year %}">Hallitus {{ oldboard.year }}</a></li>
+		{% endif %}
+	{% empty %}
+		<h2>Ei hallituksia... :(</h2>
+	{% endfor %}
+	</ul>
+{% else %}
+	<h2>Hallitusta ei löytynyt :D</h2>
+{% endif %}
 
-{% for member in members %}
-	<h3>{{ member.role }}</h3>
-	<p>{{ member.first_name }} {{ member.last_name }}
-{% empty %}
-	<h2>Eijjole boardijäseniä vielä</h2>
-{% endfor %}
 
-{% for board in boards %}
-	<h3>Hallitus {{ board.year }}</h3>
-{% empty %}
-	<h2>Ei hallituksia... :(</h2>
-{% endfor %}
 
 {% endblock %}

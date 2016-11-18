@@ -1,0 +1,14 @@
+{% extends 'www/base.html' %}
+
+{% block content %}
+    {% if form.errors %}
+    <p>Errors in form D:</p>
+    {% endif %}
+    <h1>Lisää uusi hallituksen jäsen</h1>
+    <form method="POST">
+	    {% csrf_token %}
+    	{{ form.as_p }}
+    	<button type="submit">Lähetä</button>
+    </form>
+
+{% endblock %}

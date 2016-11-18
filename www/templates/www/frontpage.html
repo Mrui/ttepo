@@ -1,12 +1,25 @@
 {% extends 'www/base.html' %}
 
 {% block content %}
-
+	<h1>Tervetuloa!</h1>
+	<p>
+	Pällistelet juuri TTEPO:n komiaa weppisivua. Valikon hallitus -kohdasta 
+	löytyy osakunnan hallituslaiset ja toimarit yhteystietoineen. Toiminta -kohdasta löytyy 
+	mm. osakunnan toiminnan perusidea ja yleisimmät tapahtumat, joissa olemme mukana. 
+	Monista tapahtumista onkin kerätty kuvia kuvagalleriaan.
+	Galleria-sivulla on myös ohjeet kuvien lähettämiseen.
+	Julkaisut -otsikon alla on sähköisessä muodossa olevat 
+	juhlavuosijulkaisut. FAQ ja linkit täyttävät loput mahdollisesta tietokuopasta.
+	</p>
+<br />
+	<h1>Ajankohtaisia uutisia</h1>
+	<p class="ajankohtaista"><strong>FUKSI, liity jäseneksi!!</strong><br/></p>
+	<p class="ajankohtaista"><strong>Tapahtumat</strong><br/></p>
 	{% for report in news %}
-		<h2>{{ report.title }}</h2>
-		<p>{{ report.text }}<p>
-		<div>Pvm: {{ report.date }}</div>
-		<div>Lähettänyt {{ report.author }}</div>
+		<p class="ajankohtaista"><strong>{{ report.title }}</strong><br/>
+		{{ report.text }}<br/>
+		Lisätty: {{ report.date }}<br/>
+		Lähettänyt {{ report.author.get_full_name }}</p>
 	{% empty %}
 		<h3>Ei uutisia<h3>
 	{% endfor %}

@@ -16,14 +16,18 @@
 
 <div id="valikot">
     <ul>
-        <li class="alasivu"><a href="/">Etusivu</a></li>
-        <li class="alasivu"><a href="/board">Hallitus</a></li>
+        <li class="alasivu"><a href="{% url 'frontpage' %}">Etusivu</a></li>
+        <li class="alasivu"><a href="{% url 'board' %}">Hallitus</a></li>
         <li class="alasivu"><a href="/concept">Toiminta</a></li>
         <li class="alasivu"><a href="/gallery">Kuvagalleria</a></li>
         <li class="alasivu"><a href="/publications">Julkaisut</a></li>
         <li class="alasivu"><a href="/faq">FAQ</a></li>
         <li class="alasivu"><a href="/links">Linkit</a></li>
-
+        {% if user.is_authenticated %}
+            <li class="alasivu"><a href="/admin/" target="blank">Admin</a></li>
+            <li class="alasivu"><a href="{% url 'addnews' %}">Lisää uutinen</a></li>
+            <li class="alasivu"><a href="{% url 'addmember' %}">Lisää hallitusjäsen</a></li>
+        {% endif %}
     </ul>
 </div>
 
