@@ -25,7 +25,7 @@ SITE_ID=1
 SECRET_KEY = 'l*di-mx&(&si*xl0g^0uj5$mkm&j$aiz5%on^t6bken$cl6vvi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 

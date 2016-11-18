@@ -4,16 +4,6 @@ from django.utils import timezone
 
 # Create your models here.
 
-class Infobox(models.Model):
-	title = models.CharField(max_length = 255, blank = False)
-	text = models.TextField()
-	date = models.DateTimeField(default=timezone.now)
-
-	class Meta:
-		verbose_name_plural = "Infoboxes"
-	def __str__(self):
-		return self.title
-
 class News(models.Model):
 	title = models.CharField(max_length = 255, unique = False)
 	text = models.TextField()
